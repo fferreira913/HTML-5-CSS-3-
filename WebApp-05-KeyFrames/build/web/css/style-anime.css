@@ -1,0 +1,30 @@
+/* 
+    Created on : 04/09/2015, 18:22:32
+    Author     : Fatinha de Sousa
+*/
+
+@keyframes pulse{
+    0%{
+        width: 0;
+        height: 0;
+        opacity: 1;
+        top: 50px;
+        left: 50px;
+    }
+    
+    100%{
+        width: 30px;
+        height: 30px;
+        opacity: 0;
+        top: 35px;
+        left: 35px;
+    }
+}
+
+.loading{
+    animation: pulse 1.5s infinite;
+    background-color: #666;
+    border-radius: 50%;
+    font: 0/0 serif;
+    position: absolute;
+}
