@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/position_exemple.css" rel="stylesheet">
+
+        <script>
+            $('#show-modal').on('click', function () {
+                $('.overlay, .notice').show();
+            });
+        </script>
+    </head>
+
+    <body>
+
+        <div class='notice'>
+            <h1>Atenção</h1>
+            <p>Aqui você pode exibir alguma mensagem importante, que ela irá
+                sobrepor todo o conteúdo do seu site.</p>
+        </div>
+
+        <div class='overlay'></div>
+
+        <a id='show-modal' href='javascript:;'>Exibir modal</a>
+    </body>
+</html>
