@@ -1,0 +1,27 @@
+/* 
+    Created on : 04/09/2015, 14:51:21
+    Author     : Fatinha de Sousa
+*/
+
+h1{
+    color: #000;
+    font-size: 1.4em;
+    text-align: center;
+    animation: appear 2s 0 linear;
+    transform: scale(1.2);
+    transform-origin: 50% 50%;
+}
+
+@keyframes appear{
+    0% {
+        opacity: 0;
+        transform: scale(2);
+    }
+    70% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
